@@ -5,9 +5,9 @@ import one from '../../assets/carpet1.jpg';
 
 const Info = () => {
   return (
-    <div className='md:px-20 px-15 w-full flex py-3 gap-4   '>
+    <div className='md:px-20 px-15 w-full flex md:flex-row flex-col py-3 gap-4   '>
         
-        <div className="basis-1/2 ">
+        <div className="basis-1/2  p-3">
        
             <Image
             src={one}
@@ -18,7 +18,7 @@ const Info = () => {
        </div>
 
 
-        <div className='basis-1/2 text-center  flex  flex-col items-center'>
+        <div className='basis-1/2 text-center  flex  flex-col items-center p-3'>
             <h1 className='text-secondary text-2xl '>Best carpet cleaning service provider</h1>
             <p>Our team consists of skilled professionals trained to handle all types of carpet cleaning needs.</p>
             <ul >
